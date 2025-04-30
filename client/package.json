@@ -9,9 +9,7 @@
     "react-scripts": "5.0.1",
     "axios": "^1.4.0",
     "framer-motion": "^10.12.18",
-    "pixelated-components": "^1.0.0",
     "react-parallax": "^3.5.1",
-    "react-pixel-art": "^1.0.1",
     "react-spring": "^9.7.2"
   },
   "devDependencies": {

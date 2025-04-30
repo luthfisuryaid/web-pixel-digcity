@@ -1,0 +1,35 @@
+/* App.css - Styling tambahan untuk aplikasi */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Pixel styling */
+.pixel-border {
+  image-rendering: pixelated;
+}
+
+.pixel-island {
+  image-rendering: pixelated;
+}
+
+/* Animasi */
+@keyframes pixel-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-pixel-float {
+  animation: pixel-float 3s ease-in-out infinite;
+}
+
+/* Gradien background */
+.bg-gradient-digcity {
+  background: linear-gradient(135deg, rgba(255, 157, 0, 0.1), rgba(0, 183, 229, 0.1));
+}

@@ -6,107 +6,110 @@ const About = () => {
     <div>
       {/* Header Section */}
       <section className="py-12">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="text-center"
           >
-            <h1 className="font-pixel text-4xl md:text-5xl mb-6">TENTANG KAMI</h1>
-            <p className="text-lg md:text-xl max-w-3xl mx-auto text-gray-700">
+            <h1 className="font-pixel text-3xl md:text-4xl lg:text-5xl mb-6 md:mb-8">TENTANG KAMI</h1>
+            <p className="font-pixel text-xs md:text-sm max-w-2xl mx-auto text-gray-700 leading-relaxed px-2">
               Mengenal lebih dekat DIGCITY - Digital Business Student Society.
             </p>
           </motion.div>
         </div>
       </section>
 
-      {/* Vision & Mission Section */}
-      <section className="py-12 bg-white border-t-4 border-b-4 border-digcity-orange">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      {/* Vision & Mission */}
+      <section className="py-12 md:py-16 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 mb-8">
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
+              className="px-2 md:px-4"
             >
-              <h2 className="font-pixel text-3xl mb-6">VISI</h2>
-              <div className="pixel-card mb-6">
-                <p className="text-gray-700">
+              <h2 className="font-pixel text-2xl md:text-3xl mb-6 md:mb-8 text-center md:text-left">VISI</h2>
+              <div className="pixel-card mb-6 md:mb-8 p-4 md:p-6">
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">
                   Mewujudkan DIGCITY sebagai organisasi yang Berdampak, Adaptif, Inovatif, Kompeten, yang menjadi wadah bagi mahasiswa Bisnis Digital untuk mengembangkan potensi diri, berprestasi, serta berkontribusi nyata bagi kemajuan program studi, fakultas, universitas, dan masyarakat.
                 </p>
               </div>
-              <h3 className="font-pixel text-xl mb-4">Penjelasan Visi:</h3>
-              <ul className="space-y-3">
+              
+              <h3 className="font-pixel text-xl mb-4 md:mb-6 text-center md:text-left">Penjelasan Visi:</h3>
+              <ul className="space-y-4 md:space-y-5 px-2 md:px-3">
                 <li className="flex items-start">
-                  <span className="inline-block w-3 h-3 bg-digcity-orange mr-3 mt-2 pixel-border"></span>
-                  <span className="text-gray-700"><strong className="text-digcity-teal">Berdampak:</strong> Memberikan manfaat nyata bagi mahasiswa, program studi, universitas, dan masyarakat</span>
+                  <span className="inline-block w-3 h-3 bg-digcity-orange mr-3 md:mr-4 mt-2 pixel-border"></span>
+                  <span className="font-pixel text-xs text-gray-700"><strong className="text-digcity-teal">Berdampak:</strong> Memberikan manfaat nyata bagi mahasiswa, program studi, universitas, dan masyarakat</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-3 h-3 bg-digcity-yellow mr-3 mt-2 pixel-border"></span>
-                  <span className="text-gray-700"><strong className="text-digcity-teal">Adaptif:</strong> Mampu menyesuaikan diri dengan perubahan zaman dan kebutuhan mahasiswa</span>
+                  <span className="inline-block w-3 h-3 bg-digcity-yellow mr-3 md:mr-4 mt-2 pixel-border"></span>
+                  <span className="font-pixel text-xs text-gray-700"><strong className="text-digcity-teal">Adaptif:</strong> Mampu menyesuaikan diri dengan perubahan zaman dan kebutuhan mahasiswa</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-3 h-3 bg-digcity-blue mr-3 mt-2 pixel-border"></span>
-                  <span className="text-gray-700"><strong className="text-digcity-teal">Inovatif:</strong> Menjadi pelopor dalam menciptakan program dan kegiatan baru yang bermanfaat</span>
+                  <span className="inline-block w-3 h-3 bg-digcity-blue mr-3 md:mr-4 mt-2 pixel-border"></span>
+                  <span className="font-pixel text-xs text-gray-700"><strong className="text-digcity-teal">Inovatif:</strong> Menjadi pelopor dalam menciptakan program dan kegiatan baru yang bermanfaat</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-3 h-3 bg-digcity-teal mr-3 mt-2 pixel-border"></span>
-                  <span className="text-gray-700"><strong className="text-digcity-teal">Kompeten:</strong> Memastikan anggota memiliki pengetahuan dan keterampilan mendalam dalam bidangnya</span>
+                  <span className="inline-block w-3 h-3 bg-digcity-teal mr-3 md:mr-4 mt-2 pixel-border"></span>
+                  <span className="font-pixel text-xs text-gray-700"><strong className="text-digcity-teal">Kompeten:</strong> Memastikan anggota memiliki pengetahuan dan keterampilan mendalam dalam bidangnya</span>
                 </li>
               </ul>
             </motion.div>
-
+            
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
+              className="px-2 md:px-4"
             >
-              <h2 className="font-pixel text-3xl mb-6">MISI</h2>
-              <ul className="space-y-6">
+              <h2 className="font-pixel text-2xl md:text-3xl mb-6 md:mb-8 text-center md:text-left">MISI</h2>
+              <ol className="space-y-4 md:space-y-6">
                 <li className="pixel-card">
-                  <div className="flex">
-                    <div className="bg-digcity-orange w-10 h-10 flex items-center justify-center mr-4 font-pixel text-white pixel-border">1</div>
-                    <p className="text-gray-700">
+                  <div className="flex flex-col sm:flex-row p-4">
+                    <div className="bg-digcity-orange w-10 h-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 md:mr-6 font-pixel text-white pixel-border flex-shrink-0 mx-auto sm:mx-0">1</div>
+                    <p className="font-pixel text-xs text-gray-700 leading-relaxed text-center sm:text-left sm:pt-2">
                       Memperkuat budaya kolaborasi dan sinergi antar anggota DIGCITY serta dengan seluruh mahasiswa Bisnis Digital, Himpunan lain, dan seluruh civitas akademik di Universitas Ibn Khaldun Bogor.
                     </p>
                   </div>
                 </li>
                 <li className="pixel-card">
-                  <div className="flex">
-                    <div className="bg-digcity-yellow w-10 h-10 flex items-center justify-center mr-4 font-pixel text-black pixel-border">2</div>
-                    <p className="text-gray-700">
+                  <div className="flex flex-col sm:flex-row p-4">
+                    <div className="bg-digcity-yellow w-10 h-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 md:mr-6 font-pixel text-black pixel-border flex-shrink-0 mx-auto sm:mx-0">2</div>
+                    <p className="font-pixel text-xs text-gray-700 leading-relaxed text-center sm:text-left sm:pt-2">
                       Menyelenggarakan program pengembangan diri yang komprehensif dan inovatif untuk meningkatkan kompetensi mahasiswa di bidang akademik, non-akademik, dan kewirausahaan.
                     </p>
                   </div>
                 </li>
                 <li className="pixel-card">
-                  <div className="flex">
-                    <div className="bg-digcity-blue w-10 h-10 flex items-center justify-center mr-4 font-pixel text-white pixel-border">3</div>
-                    <p className="text-gray-700">
+                  <div className="flex flex-col sm:flex-row p-4">
+                    <div className="bg-digcity-blue w-10 h-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 md:mr-6 font-pixel text-white pixel-border flex-shrink-0 mx-auto sm:mx-0">3</div>
+                    <p className="font-pixel text-xs text-gray-700 leading-relaxed text-center sm:text-left sm:pt-2">
                       Memberikan kontribusi pemikiran dan karya nyata bagi kemajuan program studi, fakultas, universitas, dan masyarakat umum.
                     </p>
                   </div>
                 </li>
                 <li className="pixel-card">
-                  <div className="flex">
-                    <div className="bg-digcity-teal w-10 h-10 flex items-center justify-center mr-4 font-pixel text-white pixel-border">4</div>
-                    <p className="text-gray-700">
+                  <div className="flex flex-col sm:flex-row p-4">
+                    <div className="bg-digcity-teal w-10 h-10 flex items-center justify-center mb-3 sm:mb-0 sm:mr-4 md:mr-6 font-pixel text-white pixel-border flex-shrink-0 mx-auto sm:mx-0">4</div>
+                    <p className="font-pixel text-xs text-gray-700 leading-relaxed text-center sm:text-left sm:pt-2">
                       Mengembangkan sistem organisasi yang transparan, akuntabel, dan berkelanjutan.
                     </p>
                   </div>
                 </li>
-              </ul>
+              </ol>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Organization Structure Section */}
-      <section className="py-12">
-        <div className="container mx-auto px-4">
+      {/* Organization Structure */}
+      <section className="py-16">
+        <div className="container mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -115,7 +118,7 @@ const About = () => {
             className="text-center mb-12"
           >
             <h2 className="font-pixel text-3xl md:text-4xl mb-4">STRUKTUR ORGANISASI</h2>
-            <p className="text-lg max-w-3xl mx-auto text-gray-700">
+            <p className="font-pixel text-xs md:text-sm max-w-2xl mx-auto text-gray-700 leading-relaxed">
               Struktur organisasi DIGCITY yang terinspirasi dari struktur perusahaan digital modern.
             </p>
           </motion.div>
@@ -135,7 +138,7 @@ const About = () => {
                   <span className="font-pixel text-white text-xl">CEO</span>
                 </div>
                 <h4 className="font-pixel text-xl mb-2">Chief Executive Officer</h4>
-                <p className="text-gray-700">Ketua Himpunan</p>
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">Ketua Himpunan</p>
               </motion.div>
 
               <motion.div
@@ -149,7 +152,7 @@ const About = () => {
                   <span className="font-pixel text-black text-xl">COO</span>
                 </div>
                 <h4 className="font-pixel text-xl mb-2">Chief Operating Officer</h4>
-                <p className="text-gray-700">Wakil Ketua</p>
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">Wakil Ketua</p>
               </motion.div>
 
               <motion.div
@@ -163,7 +166,7 @@ const About = () => {
                   <span className="font-pixel text-white text-xl">CAO</span>
                 </div>
                 <h4 className="font-pixel text-xl mb-2">Chief Administrative Officer</h4>
-                <p className="text-gray-700">Sekretaris</p>
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">Sekretaris</p>
               </motion.div>
 
               <motion.div
@@ -177,7 +180,7 @@ const About = () => {
                   <span className="font-pixel text-white text-xl">CFO</span>
                 </div>
                 <h4 className="font-pixel text-xl mb-2">Chief Financial Officer</h4>
-                <p className="text-gray-700">Bendahara</p>
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">Bendahara</p>
               </motion.div>
             </div>
           </div>
@@ -232,8 +235,8 @@ const About = () => {
                     <span className={`font-pixel ${div.text} text-2xl`}>{div.name}</span>
                   </div>
                   <div>
-                    <h4 className="font-pixel text-xl mb-2 text-center md:text-left">{div.fullName}</h4>
-                    <p className="text-gray-700">{div.desc}</p>
+                    <h4 className="font-pixel text-xl mb-3">{div.fullName}</h4>
+                    <p className="font-pixel text-xs text-gray-700 leading-relaxed">{div.desc}</p>
                   </div>
                 </div>
               </motion.div>
@@ -242,9 +245,9 @@ const About = () => {
         </div>
       </section>
 
-      {/* Values Section */}
-      <section className="py-12 bg-white border-t-4 border-digcity-orange">
-        <div className="container mx-auto px-4">
+      {/* Values */}
+      <section className="py-16 bg-white border-t-4 border-digcity-orange">
+        <div className="container mx-auto px-4 sm:px-6">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -253,7 +256,7 @@ const About = () => {
             className="text-center mb-12"
           >
             <h2 className="font-pixel text-3xl md:text-4xl mb-4">NILAI ORGANISASI</h2>
-            <p className="text-lg max-w-3xl mx-auto text-gray-700">
+            <p className="font-pixel text-xs md:text-sm max-w-2xl mx-auto text-gray-700 leading-relaxed">
               Nilai-nilai yang menjadi landasan DIGCITY dalam berorganisasi.
             </p>
           </motion.div>
@@ -308,7 +311,7 @@ const About = () => {
                 <div className="text-center">
                   <span className="text-4xl block mb-4">{value.icon}</span>
                   <h3 className="font-pixel text-xl mb-3">{value.name}</h3>
-                  <p className="text-gray-700">{value.desc}</p>
+                  <p className="font-pixel text-xs text-gray-700 leading-relaxed">{value.desc}</p>
                 </div>
               </motion.div>
             ))}

@@ -1,5 +1,6 @@
--- Create database
-CREATE DATABASE IF NOT EXISTS digcity_db;
+-- Drop database if exists and create a new one
+DROP DATABASE IF EXISTS digcity_db;
+CREATE DATABASE digcity_db;
 USE digcity_db;
 
 -- Table for contact submissions
@@ -18,7 +19,7 @@ CREATE TABLE IF NOT EXISTS events (
   id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(255) NOT NULL,
   description TEXT NOT NULL,
-  event_date DATE NOT NULL,
+  event_date DATETIME NOT NULL,
   image_url VARCHAR(255),
   location VARCHAR(255),
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
@@ -128,6 +129,6 @@ INSERT INTO organization_members (name, position, position_code, division_id, po
 
 -- Insert sample events
 INSERT INTO events (title, description, event_date, location) VALUES
-('DIGCITY Recruitment Day', 'Rekrutmen anggota baru untuk bergabung dengan DIGCITY.', '2024-08-15', 'Gedung Fakultas Ekonomi dan Bisnis'),
-('Digital Business Workshop', 'Workshop tentang bisnis digital untuk mahasiswa Universitas Ibn Khaldun Bogor.', '2024-09-20', 'Aula Universitas'),
-('DIGCITY Annual Conference', 'Konferensi tahunan tentang perkembangan bisnis digital dan teknologi terkini.', '2024-10-10', 'Grand Ballroom Hotel Salak');
+('DIGCITY Recruitment Day', 'Rekrutmen anggota baru untuk bergabung dengan DIGCITY.', '2024-08-15 00:00:00', 'Gedung Fakultas Ekonomi dan Bisnis'),
+('Digital Business Workshop', 'Workshop tentang bisnis digital untuk mahasiswa Universitas Ibn Khaldun Bogor.', '2024-09-20 00:00:00', 'Aula Universitas'),
+('DIGCITY Annual Conference', 'Konferensi tahunan tentang perkembangan bisnis digital dan teknologi terkini.', '2024-10-10 00:00:00', 'Grand Ballroom Hotel Salak');

@@ -18,7 +18,7 @@ const Home = () => {
               <h1 className="font-pixel text-4xl md:text-5xl lg:text-6xl mb-6 leading-tight">
                 DIGITAL BUSINESS STUDENT SOCIETY
               </h1>
-              <p className="text-lg md:text-xl mb-8 text-gray-700">
+              <p className="font-pixel text-sm md:text-base mb-8 text-gray-700 leading-relaxed">
                 Wadah bagi mahasiswa Bisnis Digital untuk mengembangkan potensi diri, 
                 berprestasi, dan berkontribusi nyata.
               </p>
@@ -105,7 +105,7 @@ const Home = () => {
                 <span className="text-4xl">🎯</span>
               </div>
               <h3 className="font-pixel text-xl text-center mb-4">VISI</h3>
-              <p className="text-gray-700 text-center">
+              <p className="font-pixel text-xs text-gray-700 text-center leading-relaxed">
                 Mewujudkan DIGCITY sebagai organisasi yang Berdampak, Adaptif, Inovatif, Kompeten untuk mengembangkan potensi mahasiswa.
               </p>
             </motion.div>
@@ -121,7 +121,7 @@ const Home = () => {
                 <span className="text-4xl">🚀</span>
               </div>
               <h3 className="font-pixel text-xl text-center mb-4">MISI</h3>
-              <p className="text-gray-700 text-center">
+              <p className="font-pixel text-xs text-gray-700 text-center leading-relaxed">
                 Memperkuat kolaborasi, menyelenggarakan program pengembangan diri, memberikan kontribusi nyata, dan mengembangkan sistem organisasi.
               </p>
             </motion.div>
@@ -137,7 +137,7 @@ const Home = () => {
                 <span className="text-4xl">💎</span>
               </div>
               <h3 className="font-pixel text-xl text-center mb-4">NILAI</h3>
-              <p className="text-gray-700 text-center">
+              <p className="font-pixel text-xs text-gray-700 text-center leading-relaxed">
                 Etika, Loyalitas, Eksplorasi, Generasi, Aksi, dan Netralisme sebagai nilai-nilai yang dijunjung tinggi.
               </p>
             </motion.div>
@@ -163,7 +163,7 @@ const Home = () => {
               </div>
               <div>
                 <h3 className="font-pixel text-xl mb-2">Creative Media Information</h3>
-                <p className="text-gray-700">
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">
                   Mengelola konten kreatif dan informasi, membuat materi visual, video, dan pengelolaan media sosial.
                 </p>
               </div>
@@ -181,7 +181,7 @@ const Home = () => {
               </div>
               <div>
                 <h3 className="font-pixel text-xl mb-2">Economy Creative</h3>
-                <p className="text-gray-700">
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">
                   Mengembangkan program ekonomi kreatif dan menjalin hubungan dengan stakeholder eksternal.
                 </p>
               </div>
@@ -199,7 +199,7 @@ const Home = () => {
               </div>
               <div>
                 <h3 className="font-pixel text-xl mb-2">People Organizing and Development</h3>
-                <p className="text-gray-700">
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">
                   Mengelola sumber daya manusia dan mengembangkan kepemimpinan dan keterampilan anggota.
                 </p>
               </div>
@@ -217,7 +217,7 @@ const Home = () => {
               </div>
               <div>
                 <h3 className="font-pixel text-xl mb-2">Public Relation</h3>
-                <p className="text-gray-700">
+                <p className="font-pixel text-xs text-gray-700 leading-relaxed">
                   Menjaga citra organisasi di mata publik dan mengelola hubungan dengan media dan promosi kegiatan.
                 </p>
               </div>
@@ -230,7 +230,7 @@ const Home = () => {
       <section className="py-16 bg-gradient-to-r from-digcity-orange to-digcity-yellow text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="font-pixel text-3xl md:text-4xl mb-6 text-white">BERGABUNG DENGAN KAMI</h2>
-          <p className="text-lg md:text-xl mb-8 max-w-3xl mx-auto">
+          <p className="font-pixel text-sm md:text-base mb-8 max-w-3xl mx-auto">
             Ingin menjadi bagian dari DIGCITY? Kembangkan potensimu bersama kami dan jadilah bagian dari perubahan!
           </p>
           <Link to="/contact" className="inline-block pixel-btn bg-white text-digcity-orange hover:bg-black hover:text-white">

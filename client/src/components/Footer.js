@@ -87,17 +87,17 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 pt-6 border-t border-gray-200 text-center">
           <p className="text-gray-600 font-pixel">
-            © {new Date().getFullYear()} DIGCITY. All rights reserved.
+            &copy; {new Date().getFullYear()} DIGCITY. All rights reserved.
           </p>
           <div className="flex justify-center space-x-4 mt-4">
-            <a href="#" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300">
-              <span className="text-2xl">📷</span>
+            <a href="https://instagram.com/digcity" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+              <span className="text-2xl">&#x1F4F7;</span>
             </a>
-            <a href="#" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300">
-              <span className="text-2xl">🐦</span>
+            <a href="https://twitter.com/digcity" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+              <span className="text-2xl">&#x1F426;</span>
             </a>
-            <a href="#" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300">
-              <span className="text-2xl">📱</span>
+            <a href="https://facebook.com/digcity" className="text-digcity-teal hover:text-digcity-orange transition-colors duration-300" target="_blank" rel="noopener noreferrer">
+              <span className="text-2xl">&#x1F4F1;</span>
             </a>
           </div>
         </div>

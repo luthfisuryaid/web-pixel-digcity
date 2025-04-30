@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import DigCityLogo from '../assets/images/digcity-logo'; // Menggunakan logo yang telah kita buat
+import DigCityLogoImg from '../assets/images/digcity-logo.png'; // Menggunakan file PNG
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +15,12 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center">
-            <DigCityLogo className="h-16 w-auto mr-2" />
+            <img 
+              src={DigCityLogoImg} 
+              alt="DigCity Logo" 
+              className="h-16 w-auto mr-2"
+              style={{ imageRendering: 'pixelated' }} 
+            />
             <span className="font-pixel text-digcity-orange text-xl hidden md:block">DIGCITY</span>
           </Link>
           
