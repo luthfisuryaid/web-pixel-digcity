@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 800 800" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="DigCity-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <!-- Circular Text -->
+        <path d="M400,50 C594.6,50 750,205.4 750,400 C750,594.6 594.6,750 400,750 C205.4,750 50,594.6 50,400 C50,205.4 205.4,50 400,50 Z" id="Circle" fill="none"/>
+        
+        <!-- DIGITAL BUSINESS STUDENT SOCIETY -->
+        <text font-family="'Press Start 2P', cursive" font-size="42" font-weight="bold" letter-spacing="1" fill="#FF9D00">
+            <textPath xlink:href="#Circle" startOffset="0%">DIGITAL BUSINESS STUDENT SOCIETY</textPath>
+        </text>
+        
+        <!-- DIGCITY -->
+        <text x="400" y="740" font-family="'Press Start 2P', cursive" font-size="50" font-weight="bold" fill="#FF9D00" text-anchor="middle">DIGCITY</text>
+        
+        <!-- Logo Elements - Yellow Arrow -->
+        <path d="M280,300 L400,400 L280,500 L320,400 Z" fill="#FFCD00"/>
+        
+        <!-- Logo Elements - Blue Arrow with Dot -->
+        <path d="M520,300 L400,400 L520,500 L480,400 Z" fill="#00B7E5"/>
+        <circle cx="430" cy="470" r="25" fill="#008999"/>
+        
+        <!-- Pixel Dots -->
+        <circle cx="240" cy="400" r="15" fill="#FF9D00"/>
+        <circle cx="560" cy="400" r="15" fill="#FF9D00"/>
+    </g>
+</svg>
